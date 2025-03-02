@@ -1,0 +1,58 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Styling the About Us Section */
+.about-us {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-container {
+    text-align: center;
+}
+
+.about-container h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-container p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    .about-container h1 {
+        font-size: 2em;
+    }
+
+    .about-container p {
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,121 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Contact Us Section */
+.contact-us {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-container {
+    text-align: center;
+}
+
+.contact-container h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group input, .form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+/* Submit Button */
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #3f51b5;
+}
+
+/* Contact Information Section */
+.contact-info {
+    margin-top: 40px;
+    font-size: 1.1em;
+}
+
+.contact-info h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    color: #555;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    .contact-container h1 {
+        font-size: 2em;
+    }
+
+    .contact-container p {
+        font-size: 1em;
+    }
+
+    .contact-form {
+        width: 90%;
+    }
+
+    .submit-btn {
+        font-size: 1em;
+    }
+}
